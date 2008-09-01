@@ -1,0 +1,20 @@
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\ifx\undefined\textsc
+\newcommand{\textsc}[1]{{\sc #1}}
+\newcommand{\emph}[1]{{\em #1\/}}
+\let\tmpsmall\small
+\renewcommand{\small}{\tmpsmall\sc}
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[Knuth]{Knuth}{1992}{Knuth.LP}
+\textsc{Knuth, D.~E.}  (1992): \emph{Literate Programming}. Center for the
+  Study of Language and Information.
+
+\harvarditem[Leisch]{Leisch}{2003}{Leisch}
+\textsc{Leisch, F.}  (2003): ``Sweave, Part {II}: Package Vignettes,'' \emph{R
+  News}, 3(2), 21--24.
+
+\end{thebibliography}
