@@ -1,0 +1,11 @@
+Package: irt
+Type: Package
+Title: irt. Spady's Item Response Model 
+Version: 2.03
+Date: 2008-08-07
+Author: Richard Spady
+Maintainer: Richard Spady <Richard.Spady@gmail.com>
+Depends: numDeriv, grid, BB, gss 
+Description: Package irt is design to estimate a model of a single ordered outcome. The model presumes that the outcome is a probabilistic function of a single latent trait.
+License: GPL
+Packaged: Wed Jul  9 21:56:21 2008; konradsmolinski

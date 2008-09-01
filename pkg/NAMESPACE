@@ -1,0 +1,43 @@
+import(stats)
+export(irt
+	,irtSingle,irtMulti
+	,plotItemsGrd
+	,plotItemsStd
+	,latex.table.rhs
+	,psnp.leg
+	,dsnp.leg
+	,GL.YW
+	,irtSet
+	,item
+	,multipleitem
+     ) 
+
+S3method(print,irtSingle)
+S3method(print,irtMulti)
+S3method(print,irtSet)
+
+S3method(summary,irtSingle)
+S3method(summary,irtMulti)
+
+S3method(plot,irtSingle)
+S3method(plot,irtMulti)
+S3method(plot,Ftab)
+
+S3method(plotItemsGrd,default)
+S3method(plotItemsGrd,list)
+
+S3method(plotItemsStd,default)
+S3method(plotItemsStd,list)
+
+S3method(item,formula)
+S3method(item,default)
+#S3method(item,factor)
+#S3method(item,integer)
+#S3method(item,numeric)
+
+S3method(multipleitem,default)
+#S3method(multipleitem,data.frame)
+#S3method(multipleitem,numeric)
+
+S3method(irt,item)
+S3method(irt,multipleitem)
